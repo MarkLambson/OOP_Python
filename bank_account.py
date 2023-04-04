@@ -34,3 +34,6 @@ bank_account2.deposit(50).deposit(250).withdraw(100).withdraw(100).withdraw(100)
 
 bank_account3 = BankAccount(1, 20)
 bank_account3.withdraw(150).display_account_info()
+
+bank_account4 = BankAccount(.5, -500)
+bank_account4.yield_interest().display_account_info()
