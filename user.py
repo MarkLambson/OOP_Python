@@ -27,14 +27,8 @@ class User:
 
 
 user1 = User("Mark", "Lambson", "mj@lambson.com", 30)
-user1.display_info()
-user1.enroll_self()
-user1.spend_points(100)
-user1.display_info()
+user1.display_info().enroll_self().spend_points(100).display_info()
 
 
 user2 = User("Levi", "Ackerman", "titanssuck@scouts.com", 25)
-user2.display_info()
-user2.enroll_self()
-user2.spend_points(73)
-user2.display_info()
+user2.display_info().enroll_self().spend_points(73).display_info()
